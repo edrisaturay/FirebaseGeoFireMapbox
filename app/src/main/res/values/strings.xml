@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Geogle Maps Geo Fire</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="mapbox_map_auth_token">pk.eyJ1IjoiYXNpcmRlIiwiYSI6ImNqbnZwM2M3ZDA0YnIzcW5xc2w3ZmJvNnUifQ.7dOg_mIq6uhF24xCcBUIgg</string>
+    <string name="geo_fire">Geo Fire</string>
+    <string name="user_location_permission_not_granted">Location permission not granted</string>
+    <string name="user_location_permission_explanation">Location needed to run this buddy</string>
+</resources>

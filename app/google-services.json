@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "546203014060",
+    "firebase_url": "https://mjumbe-application-1f57c.firebaseio.com",
+    "project_id": "mjumbe-application-1f57c",
+    "storage_bucket": "mjumbe-application-1f57c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546203014060:android:b2a766a0a765c6132c2009",
+        "android_client_info": {
+          "package_name": "com.edrisa.geoglemapsgeofire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546203014060-rn9isfejhlln0er9kkoa1tc76gtv00ee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edrisa.geoglemapsgeofire",
+            "certificate_hash": "03d8f6e8baa54fbd0964d7733854df8e2391806d"
+          }
+        },
+        {
+          "client_id": "546203014060-p7pb6s31r7p2ncqarqq3r7a99m4rl1bi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-FaTGTp9H89yZ_qY1JNSgFP2Mf8A1vsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546203014060-l3udfo9slr1vdmu78e35b6at6qh865pp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546203014060:android:de0d51e89a52eb49",
+        "android_client_info": {
+          "package_name": "com.mjumbe.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546203014060-tp0igokdpqsdc0ikamsnj8cve8ds7vba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mjumbe.user",
+            "certificate_hash": "c7f71e8a61644146f64b295c206d7cdaeeb0c259"
+          }
+        },
+        {
+          "client_id": "546203014060-p7pb6s31r7p2ncqarqq3r7a99m4rl1bi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-FaTGTp9H89yZ_qY1JNSgFP2Mf8A1vsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546203014060-l3udfo9slr1vdmu78e35b6at6qh865pp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546203014060:android:0b0c734ed83f9793",
+        "android_client_info": {
+          "package_name": "com.mjumbe.userapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546203014060-rt5stiafa39gv6qj18b8vmq2niha3qsa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mjumbe.userapp",
+            "certificate_hash": "fe0d45161bb5ace62190de9fb2227675f4300abc"
+          }
+        },
+        {
+          "client_id": "546203014060-p7pb6s31r7p2ncqarqq3r7a99m4rl1bi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-FaTGTp9H89yZ_qY1JNSgFP2Mf8A1vsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546203014060-l3udfo9slr1vdmu78e35b6at6qh865pp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546203014060:android:2d409d212b72ac9f",
+        "android_client_info": {
+          "package_name": "com.mjumbeapp.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546203014060-2jmb4hq8f89vtvec1di9nfvrdo5istlv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mjumbeapp.driver",
+            "certificate_hash": "03d8f6e8baa54fbd0964d7733854df8e2391806d"
+          }
+        },
+        {
+          "client_id": "546203014060-p7pb6s31r7p2ncqarqq3r7a99m4rl1bi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-FaTGTp9H89yZ_qY1JNSgFP2Mf8A1vsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546203014060-l3udfo9slr1vdmu78e35b6at6qh865pp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
