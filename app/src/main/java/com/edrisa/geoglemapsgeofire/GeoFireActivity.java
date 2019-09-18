@@ -10,6 +10,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.edrisa.geoglemapsgeofire.Helpers.FirebaseHelper;
+import com.edrisa.geoglemapsgeofire.Helpers.GeoFireHelper;
 import com.firebase.geofire.GeoFire;
 import com.mapbox.android.core.location.LocationEngine;
 import com.mapbox.android.core.location.LocationEngineCallback;
@@ -32,8 +33,8 @@ import java.lang.ref.WeakReference;
 import java.util.List;
 
 public class GeoFireActivity extends AppCompatActivity implements OnMapReadyCallback, PermissionsListener {
-    private GeoFire geoFire;
-    private FirebaseHelper firebaseHelper;
+    private static GeoFireHelper geoFireHelper;
+    private static FirebaseHelper firebaseHelper;
     private static final long DEFAULT_INTERVAL_IN_MILLISECONDS = 1000L;
     private static final long DEFAULT_MAX_WAIT_TIME = DEFAULT_INTERVAL_IN_MILLISECONDS * 5;
     private MapboxMap mapboxMap;
@@ -62,8 +63,7 @@ public class GeoFireActivity extends AppCompatActivity implements OnMapReadyCall
     }
 
     private void initVariables(){
-        firebaseHelper = new FirebaseHelper("online_users");
-        geoFire = new GeoFire(firebaseHelper.getDatabaseReference());
+
         }
         @Override
         public void onMapReady(@NonNull final MapboxMap mapboxMap) {
@@ -176,7 +176,11 @@ public class GeoFireActivity extends AppCompatActivity implements OnMapReadyCall
                 if (location == null) {
                     return;
                 }
-                //the magic here
+                firebaseHelper = new FirebaseHelper("online_users");
+                geoFireHelper = new GeoFireHelper(firebaseHelper.getDatabaseReference());
+
+                geoFireHelper.setReference("nigga_dawg");
+                geoFireHelper.setLocationToFirebase(location.getLatitude(), location.getLongitude());
 
 // Pass the new location to the Maps SDK's LocationComponent
                 if (activity.mapboxMap != null && result.getLastLocation() != null) {
